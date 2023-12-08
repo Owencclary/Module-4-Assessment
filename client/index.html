@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <button id="fortuneButton">Get a fortune</button>
+
+    <div class="to-do-list">
+      <h2>To Do List</h2>
+      <form id="to-do-list-form">
+        <label>Enter a task to do:</label>
+        <input type="text" id="task-input" placeholder="Type your task here">
+        <button id="toDoButton">Submit</button>
+      </form>
+      <div id="tsk-list">
+      </div>
+    </div>
+
+  <div class="exercise-idea-generator">
+    <h2>Exercise Idea Generator</h2>
+    <form id="exercise-form">
+      <label for="exercise-type-label">Enter either Yoga, Strength, or Aerobic</label>
+      <input id="exercise-type-input" type="text" name="exercise-type">
+      <button id="exerciseButton">Submit</button>
+    </form>
+  </div>
+
+  <div class="friend-phone-book"> 
+    <h2>Friend's Phone Book</h2>
+    <form id="friend-phone-form">
+      <label for="friend-name">Enter a friend's name:</label>
+      <input id="friend-name" type="text" placeholder="Friend Name">
+      <label for="friend-phone">Enter a friend's phone number:</label>
+      <input id="friend-phone" type="text" name="friend-phone">
+      <button id="friend-phone-button">Submit</button>
+    </form>
+    <div id="friend=list">
+      
+    </div>
+    <button id="call-a-friend">Suggest a friend to call!</button>
+
+    <form id="update-num-form">
+      <label>Enter a friend's name:</label>
+      <input id="friend-name-update" type="text" placeholder="Friend Name">
+      <label>Enter a friend's new phone number:</label>
+      <input id="new-friends-phone" type="text">
+      <button id="new-friend-phone-button">Submit</button>
+    </form>
+  </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
